@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.hero-section {
+  background: url("./imges/heroSection.png") no-repeat center center/cover;
+  height: 115vh;
+  color: #ffffff;
+  position: relative;
+}
+
+.nav-links {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  display: flex;
+  gap: 15px;
+}
+.nav-links a {
+  color: #303030;
+}
+.link1 {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 15px;
+  background-color: #d9d9da;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.heroContent {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 200px;
+}
+.heroContent .card {
+  position: relative;
+  top: 250px;
+}
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+.input-with-icon {
+  position: relative;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.input-with-icon input {
+  padding-left: 2.5rem;
+}
+.input-with-icon i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #ffffff;
+  background-color: #704bec;
+  padding: 5px;
+  border-radius: 3px;
+}
+.card {
+  width: 200px;
+  box-shadow: #d9d9da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companiesSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.compainesLogos {
+  display: flex;
+  justify-content: space-between;
+}
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.stunning-products {
+  background: url("./imges/StunningProduct.png") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+.stunningProducts {
+  display: flex;
+  justify-content: space-between;
+}
+.productcard {
+  max-width: 300px;
+  position: absolute;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #704bec, #aa46e5); 
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-gradient i {
+  font-size: 1rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #5a2fc2;
+  padding: 10px;
+}
+.productcard {
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 10px;
+  
+}
+.productcard2 {
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 300px;
+  margin-left: 300px;
+  padding: 10px;
+  
+}
+
+.productcard .productcard-img{
+  position: relative;
+  width: 200px;
+  max-height: 100px;
+  top: -200px;
+}
+.productcard2 .productcard-img{
+  position: relative;
+  width: 200px;
+  max-height: 100px;
+  top: -70px;
+
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.card-price .fa-shopping-cart {
+  font-size: 1rem;
+  margin-left: 5px;
+  transition: transform 0.2s;
+  color: #303030;
+}
+.features-section {
+  background: url("./imges/sectionthree.png") no-repeat center center/cover;
+  height: 80vh;
+  color: #000000;
+  position: relative;
+}
+.Cardf{
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.Cardf img{
+  border-radius: 10px;
+}
+.Customers-section{
+  position: relative;
+  background: url("./imges/section4.png") no-repeat center center/cover;
+  height: 80vh;
+  color: #000000;
+
+}
+.custCard{
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin-top: 100px;
+}
+.custCard2{
+  border: none;
+  position: absolute;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  left: 200px;
+
+
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cardmsg {
+  border: none;
+  border-radius: 15px;
+  background: #fff;
+ 
+}
+
+textarea::placeholder, input::placeholder {
+  color: #aaa;
+}
+.end-section{
+  background: url("./imges/section5.png") no-repeat center center/cover;
+
+}
+
+
